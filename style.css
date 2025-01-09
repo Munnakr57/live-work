@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial',sans-serif;
+}
+header {
+    background-color: bisque;
+    padding: 30px 0;
+}
+.all-common-title h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+    color: #424242;
+    font-weight: normal;
+    font-family: 'Arial',sans-serif;
+}
+.all-common-title p {
+    font-size: 22px;
+    margin-bottom: 25px;
+    line-height: 1.4em;
+    color: #000;
+    font-family: 'Arial',sans-serif;
+}
+.pudu_section {
+    padding: 75px 0;
+}
+.pudu-desc p {
+    font-size: 18px;
+    line-height: 1.6em;
+    color: #666;  
+    font-family: 'Arial',sans-serif;
+    
+}
+.service-image img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.service-title h4 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #0B406B;
+    text-align: center;
+}
+.comm-bottom-padding {
+    padding-bottom: 70px;
+}
+.feature-image img {
+    width: 100%;
+    object-fit: cover;
+}
+.feature-content .all-common-title h3 {
+    margin-bottom: 25px;
+}
+.feature-content ul li {
+    font-size: 18px;
+    line-height: 1.6em;
+    color: #666;  
+    font-family: 'Arial',sans-serif;
+    margin-bottom: 5px;  
+}
+.feature-content ul {
+    margin-left: 25px;
+}
+
+/* product overview section */
+.specs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.spec {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.spec h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    flex-basis: 35%;
+    margin: 0; 
+}
+
+.spec p {
+    font-size: 16px;
+    color: #666;
+    flex-basis: 65%;
+    margin: 0; 
+}
+.product-overview-section .all-common-title h3 {
+    margin-bottom: 25px;
+}
+@media (min-width:1440px) and (max-width:1800px) {
+    .service-title h4 {font-size: 18px;}
+    .feature-content ul li {font-size: 16px; margin-bottom: 8px;}
+    .all-common-title h3 {font-size: 28px; }
+    .pudu-desc p { font-size: 16px;}
+    .pudu_section {padding: 60px 0;}
+    .comm-bottom-padding {
+        padding-bottom: 60px;
+    }
+
+
+}
